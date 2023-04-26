@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My</string>
+    <string name="passward">كلمة المرور</string>
+    <string name="e_mail">البريد الألكتروني</string>
+    <string name="username">أسم المستخدم</string>
+    <string name="dua_elabrar">دعاء الأبرار</string>
+    <string name="register" translatable="false">"تسجيل "</string>
+    <string name="cofirm_passward">تأكيد كلمة المرور</string>
+    <string name="register_button">تسجيل</string>
+    <string name="have_account">هل لديك حساب بالفعل ؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="welcome_dua" translatable="false">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ، اللَّـهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ، اللَّـهُمَّ احْفَظْنَا مِنَ الشَّرِّ وَالْمَكْرِ، وَأَلْهِمْنَا الْقَوْلَ الصَّادِقَ الَّذِي يُصْلِحُ لَنَا أَمْرَ دِينِنَا وَدُنْيَانَا وَآخِرَتِنَا، اللَّـهُمَّ تَقَبَّلْ دُعَائِنَا وَارْحَمْنَا وَاغْفِرْ لَنَا وَتَجَاوَزْ عَنْ سَيِّئَاتِنَا، آمِينَ.</string>
+</resources>

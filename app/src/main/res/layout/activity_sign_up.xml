@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".sign_up">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="@string/register"
+            android:textColor="#B7FFFFFF"
+            android:textSize="38sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/dr_sugiyama"
+            android:text="@string/dua_elabrar"
+            android:textAlignment="center"
+            android:textColor="#DDE1D9D9"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#DBA39A"
+            android:drawableEnd="@drawable/user_name_icon"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/username"
+            android:paddingStart="12dp"
+            android:textColorHint="#B7FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#DBA39A"
+            android:drawableEnd="@drawable/email_icon"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="12dp"
+            android:textColorHighlight="#C6FFFFFF"
+            android:textColorHint="#B7FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#D3FDD235"
+            android:drawableEnd="@drawable/passward_icon"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/passward"
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:textColorHint="#B7FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+        <EditText
+            android:id="@+id/confirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#DBA39A"
+            android:drawableEnd="@drawable/passward_icon"
+            android:fontFamily="@font/baloo"
+            android:hint="@string/cofirm_passward"
+            android:inputType="textPassword"
+            android:paddingStart="12dp"
+            android:textColorHighlight="#C6FFFFFF"
+            android:textColorHint="#B7FFFFFF"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background"
+            android:fontFamily="@font/baloo"
+            android:text="@string/register_button"
+            android:textColor="#B7FFFFFF"
+            android:textSize="20sp"
+            app:backgroundTint="#DBA39A" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="77dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_account"
+            android:textColor="#B7FFFFFF"
+            android:textColorHighlight="#9A35B1"
+            android:textColorHint="#5C24AA"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="#E1396CAB"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

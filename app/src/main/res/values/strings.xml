@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="dua_elabrar" translatable="false">DUA ELABRAR</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="e_mail" translatable="false">E-mail</string>
+    <string name="passward" translatable="false">Passward</string>
+    <string name="cofirm_passward" translatable="false">Cofirm passward</string>
+    <string name="register_button" translatable="false">Register</string>
+    <string name="have_account" translatable="false">Do you already have an account ?</string>
+    <string name="login" translatable="false">LogIn</string>
+    <string name="welcome_dua" translatable="false">Bismillahir Rahmanir Rahim. (In the name of Allah, the Most Gracious, the Most Merciful.) O Allah, send blessings upon Muhammad and the people of Muhammad. O Allah, protect us from all harm and evil, and inspire us to speak words that are truthful, and beneficial which please You. O Allah, Accept our supplication, have mercy on us, forgive us, and overlook our sins. Amen</string>
+
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".welcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="WELCOME TO"
+            android:textAlignment="center"
+            android:textColor="#DDE1D9D9"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dr_sugiyama"
+            android:text="DUA ELABRAR"
+            android:textAlignment="center"
+            android:textColor="#DDE1D9D9"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/acme"
+            android:padding="19dp"
+            android:text="@string/welcome_dua"
+            android:textAlignment="center"
+            android:textColor="#DDE1D9D9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#638B3AB7"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="#DDE1D9D9"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background"
+            android:backgroundTint="#638B3AB7"
+            android:fontFamily="sans-serif-black"
+            android:text="logIn"
+            android:textColor="#DDE1D9D9"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

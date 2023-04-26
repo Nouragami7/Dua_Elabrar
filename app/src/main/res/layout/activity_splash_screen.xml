@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#443C68"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="261dp"
+        android:layout_height="256dp"
+        android:background="#443C68"
+        app:lottie_autoPlay="true"
+        app:lottie_cacheComposition="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/praying"
+        app:lottie_speed="1" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dr_sugiyama"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="DUA"
+        android:textColor="#B7FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/dr_sugiyama"
+        android:gravity="center"
+        android:text="ELABRAR"
+        android:textColor="#B7FFFFFF"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
